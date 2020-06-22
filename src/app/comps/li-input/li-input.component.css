@@ -1,0 +1,10 @@
+.opertorim{
+    background-color: aqua;
+    flex: auto;
+    flex-direction: row;
+}
+.numbers{
+    background-color: blueviolet;
+    flex: auto;
+
+}

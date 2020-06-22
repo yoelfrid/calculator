@@ -1,0 +1,31 @@
+
+<div id="inputer" >
+    <input type="string" [(ngModel)]="num1" id="myInput">
+    </div>
+
+
+<div class="opertorim">
+<button id="butten" (click)='add("+")'>+</button>
+<button id="butten" (click)='add("-")'>-</button>
+<button id="butten" (click)='add("*")'>*</button><br>
+<button id="butten" (click)='add("%")'>%</button>
+<button id="butten" (click)='add("=")'>=</button>
+
+</div>
+<div class="numbers">
+<button id="butten" (click)='add("1")'>1</button>
+<button id="butten" (click)='add("2")'>2</button>
+<button id="butten" (click)='add("3")'>3</button><br>
+<button id="butten" (click)='add("4")'>4</button>
+<button id="butten" (click)='add("5")'>5</button>
+<button id="butten" (click)='add("6")'>6</button><br>
+<button id="butten" (click)='add("7")'>7</button>
+<button id="butten" (click)='add("8")'>8</button>
+<button id="butten" (click)='add("9")'>9</button><br>
+<button id="butten" (click)='add("0")'>0</button>
+</div>
+
+
+<h3>resulte: {{resulte}}</h3>
+
+
